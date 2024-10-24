@@ -1,6 +1,6 @@
 class PreAttackConfig:
     def __init__(self,
-                 model_name = 'gpt-4o',
+                 model_name = 'wizardlm', # gpt-4o [orignal]
                  actor_num = 3,
                  behavior_csv = './data/harmbench.csv',
                  extract_prompt = './prompts/1_extract.txt',
@@ -21,7 +21,7 @@ class PreAttackConfig:
 
 class InAttackConfig:
     def __init__(self,
-                 attack_model_name = 'gpt-4o',
+                 attack_model_name = 'gpt-4o', #gpt-4o [original]
                  target_model_name = 'gpt-4o',
                  pre_attack_data_path = '',
                  step_judge_prompt = './prompts/attack_step_judge.txt',
