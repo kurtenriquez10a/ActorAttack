@@ -42,7 +42,7 @@ def initialize_clients():
         if deepinfra_api_key and deepinfra_base_url:
             clients['deepinfra'] = OpenAI(base_url=deepinfra_base_url, api_key=deepinfra_api_key)
 
-        # # WizardLM client setup
+        # # WizardLM client setup UNCOMMENT
         # model_name = "alpindale/WizardLM-2-8x22B"
         # tokenizer = AutoTokenizer.from_pretrained(model_name)
         # model = AutoModelForCausalLM.from_pretrained(model_name)
