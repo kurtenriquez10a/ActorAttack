@@ -1,6 +1,6 @@
 class PreAttackConfig:
     def __init__(self,
-                 model_name = 'wizardlm', # gpt-4o [orignal]
+                 model_name = 'gpy-4o', # wizard [support]
                  actor_num = 3,
                  behavior_csv = './data/harmbench.csv',
                  extract_prompt = './prompts/1_extract.txt',
